@@ -36,16 +36,13 @@ This project reads the current date, time, and temperature from the DS3231 real-
   </a>
 </p>
 
-<<<<<<< HEAD
 <p align="center">
     <img src="Images/ds3231 pinout.png" width="400">
     <p align="center">DS3231 RTC module Pinout</p>
-=======
 
 <p align="center">
-    <img src="Images/rtc_with_pico_wiring_diagram.png" width="400">
+    <img src="Images/rtc_with_pico_breadboard_connection.png" width="400">
     <p align="center">Breadboard Connection</p>
->>>>>>> 22b92eb (Update after folder changes)
   </a>
 </p>
 
