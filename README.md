@@ -36,9 +36,16 @@ This project reads the current date, time, and temperature from the DS3231 real-
   </a>
 </p>
 
+<<<<<<< HEAD
 <p align="center">
     <img src="Images/ds3231 pinout.png" width="400">
     <p align="center">DS3231 RTC module Pinout</p>
+=======
+
+<p align="center">
+    <img src="Images/rtc_with_pico_wiring_diagram.png" width="400">
+    <p align="center">Breadboard Connection</p>
+>>>>>>> 22b92eb (Update after folder changes)
   </a>
 </p>
 
@@ -46,8 +53,9 @@ This project reads the current date, time, and temperature from the DS3231 real-
 
 Install via Arduino Library Manager:
 
-- RTClib
-- LiquidCrystal_I2C
+- RTClib <a href="https://github.com/adafruit/RTClib.git" target="_blank">(Github)</a>
+- LiquidCrystal_I2C <a href="https://github.com/johnrickman/LiquidCrystal_I2C.git" target="_blank">(Github)</a>
+
 ## Troubleshooting
 
 1. RTC not keeping time after power-off
