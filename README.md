@@ -30,8 +30,17 @@ This project reads the current date, time, and temperature from the DS3231 real-
 | GP4      | SDA    | SDA       |
 | GP5      | SCL    | SCL       |
 
+<p align="center">
+    <img src="Images/rtc_with_pico_wiring_diagram.png" width="400">
+    <p align="center">Wiring Diagram</p>
+  </a>
+</p>
 
-![Breadboard Connection](./images/your_image.jpg)
+<p align="center">
+    <img src="Images/ds3231 pinout.png" width="400">
+    <p align="center">DS3231 RTC module Pinout</p>
+  </a>
+</p>
 
 ## Libraries Required
 
