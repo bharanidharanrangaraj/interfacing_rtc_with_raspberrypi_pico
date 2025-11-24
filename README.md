@@ -1,15 +1,20 @@
 
 # Interfacing RTC Module with Raspberry Pi Pico
 
+<p align="center">
+    <img src="Images/title-image-interfacing-rtc-with-pico.png" width="400">
+  </a>
+</p>
+
 DS3231 real-time clock with the Raspberry Pi Pico, which includes connecting via I²C, managing an LCD screen, and using firmware based on Arduino.
 
 
 ## Project Overview
-This project reads the current date, time, and temperature from the DS3231 real-time clock module and shows the information on a 20×4 I²C LCD connected to the Raspberry Pi Pico. It demonstrates how the Pico can communicate with several I²C devices at once, handle real-time data using the DS3231, and display the results in a clear and easy-to-read way through the Arduino framework. The code is built to be straightforward, dependable, and easy to update, making it a great choice for both new users and those working on more complex time-related projects.
+This project reads the current date, time, and temperature from the DS3231 real-time clock module and shows the information on a 16x2 I²C LCD connected to the Raspberry Pi Pico. It demonstrates how the Pico can communicate with several I²C devices at once, handle real-time data using the DS3231, and display the results in a clear and easy-to-read way through the Arduino framework. The code is built to be straightforward, dependable, and easy to update, making it a great choice for both new users and those working on more complex time-related projects.
 
 ## Features
 - Reads real-time date, time, and temperature from the DS3231 RTC
-- Displays formatted output on a 20×4 I²C LCD
+- Displays formatted output on a 16x2 I²C LCD
 - Uses a shared I²C bus for both the RTC and LCD
 - Supports automatic or manual time setting via Arduino code
 
@@ -17,7 +22,7 @@ This project reads the current date, time, and temperature from the DS3231 real-
 
 - Raspberry Pi Pico
 - DS3231 RTC Module
-- 20×4 I²C LCD Display
+- 16x2 I²C LCD Display
 - Jumper Wires
 - CR2032 Battery
 - Breadboard (optional)
