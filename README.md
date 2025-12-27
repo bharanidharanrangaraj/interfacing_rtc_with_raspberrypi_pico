@@ -71,6 +71,9 @@ Install via Arduino Library Manager:
 4. Time drifting noticeably
 - Likely a low-quality DS3231 clone.
 - Weak backup battery causing unstable oscillator operation
+
+The project is published in Circuit digest website, if needed can visit and learn more: [Interfacing the RTC Module with Raspberry Pi Pico](https://circuitdigest.com/microcontroller-projects/interfacing-raspberry-pi-pico-rtc-ds3231)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
